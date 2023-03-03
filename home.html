@@ -41,32 +41,8 @@
     result"
     ></div>
 
-    <script>
-      if (typeof Storage !== "undefined") {
-        document.getElementById("result").innerHTML =
-          "Hey bub, Your browser supports the Web Storage";
-      } else {
-        document.getElementById("result").innerHTML =
-          "Sorry bub, Your browser does not support Web Storage";
-      }
-    </script>
+    
   </body>
 
-  <script>
-    if (typeof Storage == "undefined") {
-      localStorage.setitem("Gibbo", "Barkada");
-      localStorage.setItem("Country", "India");
-      document.write(
-        "Hi" +
-          " " +
-          localStorage.name +
-          " " +
-          "from" +
-          " " +
-          localStorage.Country
-      );
-    } else {
-      alert("Sorry! your browser is not supporting the browser");
-    }
-  </script>
+  
 </html>
